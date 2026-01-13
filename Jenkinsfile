@@ -41,7 +41,7 @@ pipeline
     {
       steps
       {
-        input message : 'Approve deployment?' ok:'Approve'
+        input message : 'Approve deployment?' ok :'Approve'
       }
     }
     stage('Ready for Deployment')
