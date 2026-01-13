@@ -29,8 +29,7 @@ pipeline
         if errorlevel 1 (
           echo  Validation Failed
           exit 1
-        )
-        else
+        )else
         (
           echo Validation passed
         )
